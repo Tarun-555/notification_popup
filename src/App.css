@@ -1,0 +1,37 @@
+.App{
+  box-sizing: border-box;
+  margin: 30px 20px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.input_container{
+  width:300px;
+  height:30px;
+  border: none;
+  border-bottom: 1px  solid black;
+  font-size: 1rem;
+  margin:0px 4px;
+}
+
+.input_container:focus{
+  outline: none;
+  border-bottom: 1px  solid black;
+}
+
+.picker_container{
+  border-radius: 2px;
+  margin:0px 8px;
+  padding: 10px;
+  text-transform: uppercase;
+  line-height: 2px;
+}
+
+.btn{
+  background-color: steelblue;
+  color:white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  text-transform: uppercase;
+  /* letter-spacing: 0.5px; */
+}

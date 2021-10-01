@@ -1,0 +1,57 @@
+.wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+@keyframes slide-from-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.notification_container {
+  box-sizing: border-box;
+  height: 50px;
+  width: 300px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 6px;
+  transition: 0.1s ease-in-out;
+  animation: slide-from-right 0.5s;
+  box-shadow: -1px 2px #ccc;
+  color: white;
+}
+
+.content {
+  display: block;
+}
+
+.header {
+  display: flex;
+  margin: 0px 35px;
+}
+
+.mode {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mode_icon {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+
+.delete {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
